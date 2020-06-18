@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Link from './Link'
 
 class LinkList extends Component  {
     state= {
@@ -121,11 +122,7 @@ class LinkList extends Component  {
           <ul>
             {links.map((link) => (
               <li key={link.url}>
-                <a target='_blank'
-                  rel='noopener noreferrer'
-                  href={link.url}>
-                  {link.title}
-                </a>
+                <Link url={link.url} text={link.title} />
               </li>
             ))}
           </ul>
