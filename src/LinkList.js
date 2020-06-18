@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Link from './Link'
+import './LinkList.css'
 
 class LinkList extends Component  {
     state= {
@@ -118,14 +119,12 @@ class LinkList extends Component  {
     render() {
       const links = this.state.links
       return (
-        <div>
-          <ul>
-            {links.map((link) => (
-              <li key={link.url}>
-                <Link url={link.url} text={link.title} />
-              </li>
-            ))}
-          </ul>
+        <div className='Card-container'>
+          {links.map((link) => (
+            <div key={link.url} className='Card'>
+              <Link url={link.url} text={link.title} />
+            </div>
+          ))}
         </div>
       )
     }

@@ -1,0 +1,40 @@
+.Card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.Card {
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+  border: solid 1px #444;
+}
+
+.Card a {
+  font-family: cursive;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.Card:nth-child(5n+0) {
+  background-color: rgb(122,252,255);
+}
+
+.Card:nth-child(5n+1) {
+  background-color: rgb(254,255,156);
+}
+
+.Card:nth-child(5n+2) {
+  background-color: rgb(255,101,163);
+}
+
+.Card:nth-child(5n+3) {
+  background-color: rgb(255,247,64);
+}
+
+.Card:nth-child(5n+4) {
+  background-color: rgb(255,126,185);
+}
