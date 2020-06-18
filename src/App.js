@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 import LinkList from './LinkList'
 
 
 function App() {
   return (
-    <div>
+    <div class="container">
       <header>
         <h1>React Further Reading</h1>
       </header>

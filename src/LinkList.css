@@ -19,22 +19,18 @@
   text-decoration: none;
 }
 
-.Card:nth-child(5n+0) {
+.Card:nth-child(4n+1) {
   background-color: rgb(122,252,255);
 }
 
-.Card:nth-child(5n+1) {
+.Card:nth-child(4n+2) {
   background-color: rgb(254,255,156);
 }
 
-.Card:nth-child(5n+2) {
+.Card:nth-child(4n+3) {
   background-color: rgb(255,101,163);
 }
 
-.Card:nth-child(5n+3) {
+.Card:nth-child(4n+4) {
   background-color: rgb(255,247,64);
-}
-
-.Card:nth-child(5n+4) {
-  background-color: rgb(255,126,185);
 }
