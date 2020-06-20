@@ -113,6 +113,10 @@ class LinkList extends Component  {
           url: 'https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle',
           title: 'Component Lifecycles'
         },
+        {
+          url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Short-circuit_evaluation',
+          title: 'Short Circuit Evaluation'
+        }
       ]
     }
 
